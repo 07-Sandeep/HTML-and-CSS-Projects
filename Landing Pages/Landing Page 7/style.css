@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: Plus Jakarta Sans;
+}
+#main{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #181D20;
+}
+#nav{
+  padding: 20px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+}
+#nav>p{
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+}
+#nav>img{
+  height: 60px;
+  cursor: pointer;
+}
+#img-con{
+  position: absolute;
+  top: 14%;
+  right: 10%;
+  height: 82%;
+  width: 34%;
+}
+#img-con>img{
+  object-fit: cover;
+  background-position: bottom;
+  height: 100%;
+  width: 100%;
+}
+#content-con{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  /* background-color: red; */
+  height: 60%;
+  width: 60%;
+  font-family: Merriweather;
+}
+#content-con #mustache-logo{
+  height: 60px;
+  width: 80px;
+}
+#content-con>h1{
+  color: white;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+#content-con>h4{
+  margin-top: 25px;
+  width: 62%;
+  color: white;
+  font-weight: 300;
+  font-family: Gilroy;
+  font-size: 18px;
+}
+#content-con>button{
+  margin-top: 40px;
+  padding: 15px 35px;
+  font-size: 14px;
+  background: linear-gradient(to right,rgb(253, 229, 142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(253, 229,142),rgb(255, 255, 255),rgb(253, 229,142),rgb(253, 229,142));
+  font-weight: 300;
+  border-radius: 6px;
+  border: none;
+  font-family: gilroy;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: box-shadow 0.15s;
+}
+#content-con>button:hover{
+  box-shadow: 0px 0px 10px 2px rgb(253, 229, 142);
+  cursor: pointer;
+}

@@ -1,0 +1,495 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cooper Lt BT;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+#nav{
+  z-index: 100;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+  font-weight: 12;
+}
+#nav>h1{
+  font-size: 32px;
+  font-weight: 200;
+}
+#nav h1 span{
+  color: rgb(0, 235, 143);
+}
+#nav #part2{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#part2 a{
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  color: black;
+}
+#contact-us-button {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  padding: 12px 20px;
+  border: 1px solid rgb(142, 142, 142);
+  border-radius: 25px;
+  overflow: hidden;
+}
+#contact-us-button h5{
+  font-size: 16px;
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 400;
+  position: relative;
+  z-index: 99;
+  color: black;
+}
+#contact-us-button #green{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 235, 143);
+  position: absolute;
+  top: 0%;
+  left: -100%;
+  transition: left 0.4s ease;
+}
+#contact-us-button:hover #green{
+  left: 0%;
+}
+#contact-us-button i{
+  padding-left: 12px;
+  z-index: 99;
+}
+#site-part1{
+  height: 100%;
+  width: 100%;
+  padding: 100px 0;
+}
+#site-part1 #i-con{
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  top: 70.5%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(142, 142, 142);
+  padding: 7px 27px;
+  margin-left: 16px;
+  border-radius: 20px;
+}
+#site-part1 #green{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 235, 143);
+  position: absolute;
+  top: 0%;
+  left: -100%;
+  transition: left 0.4s ease;
+  z-index: -1;
+}
+#site-part1 #i-con:hover #green{
+  left: 0;
+}
+#part1-img1{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  height: 70%;
+  max-width: 358px;
+  transition: margin 0.8s ease;
+}
+#part1-img1:hover{
+  margin-top: -20px;
+}
+#part1-img2{
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  height: 29%;
+  max-width: 256px;
+  transition: margin 0.8s ease;
+}
+#part1-img2:hover{
+  margin-top: -20px;
+}
+#part1-img3{
+  position: absolute;
+  top: 55%;
+  left: 75%;
+  height: 38%;
+  width: 18%;
+  transition: margin 0.8s ease;
+}
+#part1-img3:hover{
+  margin-top: -20px;
+}
+#site-part1>h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  width: 50%;
+  text-align: center;
+  font-weight: 200;
+}
+#site-part1>h1::after{
+  content: "";
+  height: 16px;
+  background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+  width: 44%;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+#site-part1>h3{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+#site-part2{
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70%;
+  background-color: black;
+}
+#site-part2 h3{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+#site-part2 h3 i{
+  color: rgb(0, 235, 143);
+}
+#site-part2 h1{
+  font-weight: 100;
+  font-size: 46px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#hover-anime{
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid rgb(113, 113, 113);
+  padding: 6px 23px 8px 23px;
+  border-radius: 25px;
+  color: white;
+  position: relative;
+}
+#site-part2 h2{
+  z-index: 99;
+  color: white;
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: center;
+}
+#site-part2 #hover-anime i{
+  margin-top: 8px;
+  margin-left: 10px;
+  z-index: 99;
+}
+#site-part2 #hover-anime #green3{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 235, 143);
+  position: absolute;
+  top: 0%;
+  left: -100%;
+  transition: left 0.4s ease;
+}
+#site-part2 #hover-anime:hover #green3{
+  left: 0%;
+}
+#site-part3{
+  display: flex;
+  height: 135%;
+  width: 100%;
+}
+#site-part3 #left-section{
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 55%;
+}
+#box1-part3{
+  width: 180px;
+  height: 916px;
+}
+#box2-part3{
+  width: 570px;
+  height: 916px;
+}
+#part3-img1{
+  width: 174px;
+  height: 548px;
+}
+#part3-img2{
+  margin-left: 30px;
+  width: 416px;
+  height: 260px;
+}
+#part3-img3{
+ margin-top: 30px;
+  width: 174px;
+  height: 261px;
+  
+}
+#part3-img4{
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 554px;
+  height: 625px;
+}
+#site-part3 #right-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 45%;
+  padding: 0px 40px;
+}
+#site-part3 #right-section h1{
+  margin-bottom: 50px;
+  font-weight: 100;
+  font-size: 60px;
+}
+#site-part3 #right-section p{
+  line-height: 33px;
+  letter-spacing: -0.5px;
+  font-size: 18px;
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  margin-bottom: 30px;
+}
+#site-part3 #right-section #services-con{
+  display: flex;
+  align-items: center;
+}
+#site-part3 #right-section #services-con img{
+  height: 45px;
+  border-radius: 50%;
+  background-color: lightblue;
+}
+#site-part3 #right-section #services-con h3{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+#site-part3 #right-section #services-con #hover-anime2{
+  position: relative;
+  padding: 9px 20px;
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 25px;
+  overflow: hidden;
+}
+#site-part3 #right-section #services-con #hover-anime2 #green4{
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 235, 143);
+  position: absolute;
+  top: 0%;
+  left: -100%;
+  transition: left 0.4s ease;
+}
+#site-part3 #right-section #services-con #hover-anime2:hover #green4{
+  left: 0%;
+}
+#site-part3 #right-section #services-con #hover-anime2 h2{
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 17px;
+  font-weight: 400;
+}
+#site-part3 #right-section #services-con #hover-anime2 i{
+  margin-left: 10px;
+}
+#site-part4{
+  width: 100%;
+  height: 110%;
+  padding: 2% 9%;
+}
+#site-part4 h1{
+  text-align: center;
+  font-weight: 100;
+  font-size: 53px;
+  padding-bottom: 100px;
+}
+#site-part4 #companies{
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px 250px;
+  grid-template-rows: 130px 130px 130px 130px;
+}
+#site-part4 #companies img{
+  height: 40px;
+  margin-left: 50px;
+}
+#site-part5{
+  padding: 0 8%;
+  width: 100%;
+  height: 100%;
+}
+#box-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+  width: 100%;
+}
+#box-img1{
+  box-shadow: inset 0px 0px 200px 25px rgba(0, 0, 0, 0.9);
+  background-image: url(https://images.unsplash.com/photo-1597369237991-5c95d1b6e0c8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  margin: 0 20px;
+  height: 69%;
+  width: 49%;
+}
+#img1-box-con{
+  padding: 40px;
+}
+#box-img1 img{
+  width: 150px;
+  height: 40px;
+}
+#box1-headings-con{
+  padding: 40px;
+}
+#box-img1 h1{
+  color: white;
+  font-weight: 500;
+  font-size: 50px;
+}
+#box-img1 h2{
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 15px;
+}
+#box-img1 h2 i{
+  border: 1px solid rgb(255, 255, 255);
+  padding: 3px 20px;
+  border-radius: 20px;
+  margin-left: 10px ;
+}
+#box-img2{
+  box-shadow: inset 0px 0px 200px 25px rgba(0, 0, 0, 0.9);
+  background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/work/work-thumbnail-03.jpg?w=1200&h=675&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1627573623&s=b7070d5239bcfbe21f47b6e42d04043d);
+  background-position: center;
+  background-size: cover;
+  margin: 0 20px;
+  height: 69%;
+  width: 49%;
+}
+#box-img2 #img2-box-con img{
+  width: 150px;
+  height: 40px;
+}
+#img2-box-con{
+  padding: 44px;
+}
+#box2-headings-con{
+  padding: 44px;
+}
+#box-img2 h1{
+  color: white;
+  font-weight: 500;
+  font-size: 50px;
+}
+#box-img2 h2{
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 10px;
+}
+#box-img2 h2 i{
+  border: 1px solid rgb(255, 255, 255);
+  padding: 3px 20px;
+  border-radius: 20px;
+  margin-left: 10px ;
+}
+#site-part5 #services-con{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#site-part5 #services-con img{
+  height: 45px;
+  border-radius: 50%;
+  background-color: lightblue;
+}
+#site-part5 #services-con h3{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+#site-part5 #services-con h2{
+  font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 17px;
+  font-weight: 400;
+}
+#site-part5 #services-con h2 i{
+  margin-left: 10px;
+}
+#site-part5 #services-con #hover-anime3{
+  border: 1px solid rgb(139, 139, 139);
+  padding: 9px 20px;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#site-part5 #services-con #hover-anime3 #green5{
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 235, 143);
+  position: absolute;
+  top: 0%;
+  left: -100%;
+  transition: left 0.4s ease;
+}
+#site-part5 #services-con #hover-anime3:hover #green5{
+  left: 0%;
+}

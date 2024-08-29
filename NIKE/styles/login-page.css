@@ -1,0 +1,164 @@
+.background-image-con{
+  height: 100%;
+  width: 100%;
+}
+.background-image{
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+.header{
+  position: fixed;
+  top: 30px;
+  left: 50px;
+}
+.nike-logo{
+  cursor: pointer;
+  height: 50px;
+}
+.nike-logo:hover{
+  opacity: 0.6;
+}
+.jordan-logo{
+  cursor: pointer;
+  height: 60px;
+}
+.jordan-logo:hover{
+  opacity: 0.6;
+}
+.login-con{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 70px;
+
+  position: absolute;
+  top: 50px;
+  left: 500px;
+
+  height: 600px;
+  width: 500px;
+
+  border: 0.2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.signup-heading{
+  font-family: Oswald,Arial;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+.signup-button:hover{
+  opacity: 0.6;
+}
+.login-heading{
+  cursor: pointer;
+  font-family: Oswald,Arial;
+  color: white;
+  font-size: 22px;
+}
+.login-button:hover{
+  opacity: 0.6;
+}
+.with{
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  color: grey;
+  cursor: auto;
+}
+.google-logo-n{
+  cursor: pointer;
+  height: 17px;
+}
+.or{
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  color: grey;
+  cursor: auto;
+}
+.username-input-con{
+  margin-top: 20px;
+  width: 300px;
+  height: 50px;
+}
+.username-input{
+  font-size: large;
+  font-family: Oswald, Arial;
+  padding-left: 15px;
+  padding-right: 10px;
+  width: 100%;
+  height: 100%;
+}
+.password-input-con{
+  margin-top: 15px;
+  width: 300px;
+  height: 50px;
+}
+.password-input{
+  font-size: large;
+  font-family: Oswald, Arial;
+  padding-left: 15px;
+  padding-right: 10px;
+  width: 100%;
+  height: 100%;
+}
+.checkbox-con{
+  margin-top: 10px;
+  height: 15px;
+}
+.terms-para{
+  font-size: 11px;
+  font-family: Oswald, Arial;
+  color: white;
+}
+.submit-button-con{
+  margin-top: 25px;
+  height: 50px;
+  width: 330px;
+}
+.submit-button{
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 0.5px solid rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  font-family: Oswald, Arial;
+  font-size: larger;
+  cursor: pointer;
+  transition: background-color,color, 0.15s;
+}
+.submit-button:hover{
+  background-color: white;
+  color: black;
+}
+.submit-button:active{
+  opacity: 0.7;
+}
+.forgot-con{
+  margin-top: 10px;
+  height: 11px;
+}
+.forgot-user-pass{
+  font-family: Oswald;
+  color: white;
+  font-size: 11px;
+}
+.forgot-username{
+  cursor: pointer;
+}
+.forgot-password{
+  cursor: pointer;
+}
+.welcome-heading-con{
+  margin-top: 70px;
+  font-family: Oswald, Arial;
+  color: white;
+}
+.about-nike{
+  margin-top: 20px;
+  width: 440px;
+  font-size: small;
+}
+.guides,.terms-of-sale,.terms-of-use,.privacy-policy{
+  font-family: Oswald, Arial;
+}

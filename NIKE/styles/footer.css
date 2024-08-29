@@ -1,0 +1,150 @@
+footer{
+  position: relative;
+  top: 175px;
+  left: 0;
+  right: 0;
+  height: 400px;
+  background-color: white;
+}
+.top-section{
+  display: flex;
+  flex-direction: row;
+}
+.footer-headings{
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  height: 320px;
+  width: 800px;
+  /* border: 1px solid black; */
+  justify-content: space-evenly;
+}
+.left-section{
+  margin-top: 25px;
+  font-size: 14px;
+  font-family: Oswald,Arial;
+  font-weight: 500;
+  height: 120px;
+  width: 150px;
+  line-height: 35px;
+  /* border: 1px solid black; */
+}
+.left-section-h1:hover,.left-section-h2:hover,.left-section-h3:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.middle-section{
+  margin-top: 25px;
+  font-size: 14px;
+  font-family: Oswald,Arial;
+  font-weight: 500;
+  height: 320px;
+  width: 190px;
+  /* border: 1px solid black; */
+  line-height: 35px;
+}
+.mid-section-headings{
+  color: grey;
+}
+.middle-section-h1:hover,.middle-section-h2:hover,.middle-section-h3:hover,.middle-section-h4:hover,.middle-section-h5:hover,.middle-section-h6:hover,.middle-section-h7:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+.right-section{
+  margin-top: 25px;
+  font-size: 14px;
+  font-family: Oswald,Arial;
+  font-weight: 500;
+  height: 200px;
+  width: 150px;
+  /* border: 1px solid black; */
+  line-height: 35px;
+}
+.right-section-headings{
+  color: grey;
+}
+.right-section-about-nike:hover,.right-section-news:hover,.right-section-careers:hover,.right-section-investors:hover,.right-section-sustainability:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.social-handles{
+  position: absolute;
+  top: 25px;
+  right: 50px;
+
+  height: 50px;
+  width: 250px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  /* border: 1px solid black; */
+}
+.twitter-icon{
+  height: 40px;
+}
+.facebook-icon{
+  height: 50px;
+}
+.youtube-icon{
+  height: 50px;
+}
+.instagram-icon{
+  height: 55px;
+}
+.twitter-icon:hover,.facebook-icon:hover,.youtube-icon:hover,.instagram-icon:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+.bottom-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+
+  background-color: rgb(255, 0, 0);
+}
+.bottom-sec-p1{
+  font-family: Oswald, Arial;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  margin-left: 40px;
+}
+.country-name{
+  margin-left: 4px;
+  font-size: medium;
+}
+.location-logo{
+  margin-top: 1px;
+  height: 20px;
+}
+.copyright{
+  color: rgb(112, 112, 112);
+  margin-left: 20px;
+  font-family: Oswald, Arial;
+  font-size: medium;
+}
+.bottom-sec-p2{
+  color: rgb(112, 112, 112);
+  font-weight: 500;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-right: 50px;
+}
+.location-logo:hover,.country-name:hover,.copyright:hover,.guides:hover,.terms-of-use:hover,.terms-of-sale:hover,.privacy-policy:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
